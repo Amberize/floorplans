@@ -1,10 +1,10 @@
-package me.amberize
+package me.amberize.floorplans
 
 import com.fasterxml.jackson.dataformat.xml.XmlMapper
 import com.fasterxml.jackson.module.kotlin.jacksonObjectMapper
 import com.fasterxml.jackson.module.kotlin.readValue
 import kotlinx.coroutines.*
-import me.amberize.model.FloorPlan
+import me.amberize.floorplans.model.FloorPlan
 import mu.KotlinLogging
 import java.io.File
 import java.net.URL

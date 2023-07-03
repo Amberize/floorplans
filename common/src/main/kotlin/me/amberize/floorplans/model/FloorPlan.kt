@@ -1,4 +1,4 @@
-package me.amberize.model
+package me.amberize.floorplans.model
 
 import com.fasterxml.jackson.annotation.JsonInclude
 

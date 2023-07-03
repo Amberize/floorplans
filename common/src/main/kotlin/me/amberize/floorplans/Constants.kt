@@ -1,4 +1,4 @@
-package me.amberize
+package me.amberize.floorplans
 
 class Constants {
 

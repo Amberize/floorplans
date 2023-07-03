@@ -1,7 +1,8 @@
-package me.amberize
+package me.amberize.floorplans
 
 import com.fasterxml.jackson.module.kotlin.jacksonObjectMapper
-import me.amberize.model.FloorPlan
+import me.amberize.floorplans.Constants
+import me.amberize.floorplans.model.FloorPlan
 import org.jsoup.Jsoup
 import java.io.File
 import java.nio.file.Files

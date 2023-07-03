@@ -1,4 +1,7 @@
+package me.amberize
+
 import com.fasterxml.jackson.module.kotlin.jacksonObjectMapper
+import me.amberize.model.FloorPlan
 import org.jsoup.Jsoup
 import java.io.File
 import java.nio.file.Files
@@ -37,7 +40,7 @@ class PageExtractor {
 
             val output = objectMapper.writerWithDefaultPrettyPrinter().writeValueAsString(floorPlans)
 
-            val dataDir = Paths.get("data")
+            val dataDir = Paths.get(Constants.DATA_DIR)
             if (!dataDir.exists()) {
                 Files.createDirectory(dataDir)
             }

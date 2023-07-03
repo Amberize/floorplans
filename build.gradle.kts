@@ -21,6 +21,7 @@ dependencies {
     implementation("com.fasterxml.jackson.dataformat:jackson-dataformat-xml:2.15.2")
     implementation("org.sejda.imageio:webp-imageio:0.1.6")
     implementation("org.apache.commons:commons-csv:1.10.0")
+    implementation("org.jetbrains.kotlinx:kotlinx-coroutines-core:1.7.2")
 
     testImplementation(kotlin("test"))
 }
